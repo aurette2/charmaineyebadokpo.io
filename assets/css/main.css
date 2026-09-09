@@ -707,6 +707,7 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
+  padding-right: 60px;
 }
 
 .hero h2 {
