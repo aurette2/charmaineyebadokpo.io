@@ -1474,3 +1474,141 @@ section,
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
+
+/*--------------------------------------------------------------
+# Hero CTA & Mentions
+--------------------------------------------------------------*/
+.hero .hero-buttons {
+  margin-top: 30px;
+}
+
+.hero .btn-get-started {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 12px 32px;
+  border-radius: 50px;
+  margin: 5px 8px;
+  transition: 0.3s;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 88%);
+  color: var(--default-color);
+  border: 2px solid color-mix(in srgb, var(--default-color), transparent 70%);
+}
+
+.hero .btn-get-started:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  border-color: var(--accent-color);
+}
+
+.hero .mentions {
+  margin-top: 45px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero .mentions span {
+  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 75%);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+
+/*--------------------------------------------------------------
+# Project Cards
+--------------------------------------------------------------*/
+.project-card {
+  height: 100%;
+  border-radius: 12px;
+  padding: 30px;
+  background-color: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  border-color: var(--accent-color);
+}
+
+.project-card .project-icon {
+  font-size: 34px;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+.project-card .project-tag {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin-bottom: 8px;
+}
+
+.project-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Info List (Education / Awards)
+--------------------------------------------------------------*/
+.info-block {
+  height: 100%;
+  border-radius: 12px;
+  padding: 30px;
+  background-color: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.info-block h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: var(--accent-color);
+}
+
+.info-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-block ul li {
+  padding: 0 0 16px 26px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.info-block ul li::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+
+.info-block ul li strong {
+  color: var(--heading-color);
+  display: block;
+  font-weight: 600;
+}
+
+.info-block ul li span {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  font-size: 14px;
+}
