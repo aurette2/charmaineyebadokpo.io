@@ -1507,16 +1507,36 @@ section,
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 10px;
+  align-items: center;
+  gap: 18px;
 }
 
-.hero .mentions span {
-  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 75%);
-  padding: 6px 16px;
-  border-radius: 50px;
-  font-size: 13px;
-  letter-spacing: 0.3px;
+.hero .mentions-logo {
+  height: 30px;
+  width: auto;
+  display: inline-block;
+  opacity: 0.92;
+  transition: opacity 0.3s ease;
+}
+
+.hero .mentions-logo--imsp,
+.hero .mentions-logo--indabax {
+  height: 34px;
+}
+
+.hero .mentions-logo:hover {
+  opacity: 1;
+}
+
+@media (max-width: 575px) {
+  .hero .mentions-logo {
+    height: 24px;
+  }
+
+  .hero .mentions-logo--imsp,
+  .hero .mentions-logo--indabax {
+    height: 27px;
+  }
 }
 
 /*--------------------------------------------------------------
