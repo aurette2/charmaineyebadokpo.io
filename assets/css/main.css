@@ -1502,16 +1502,16 @@ section,
   border-color: var(--accent-color);
 }
 
-.hero .mentions {
-  margin-top: 45px;
+.contact .mentions {
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 18px;
 }
 
-.hero .mentions-logo {
+.contact .mentions-logo {
   height: 30px;
   width: auto;
   display: inline-block;
@@ -1519,22 +1519,22 @@ section,
   transition: opacity 0.3s ease;
 }
 
-.hero .mentions-logo--imsp,
-.hero .mentions-logo--indabax {
+.contact .mentions-logo--imsp,
+.contact .mentions-logo--indabax {
   height: 34px;
 }
 
-.hero .mentions-logo:hover {
+.contact .mentions-logo:hover {
   opacity: 1;
 }
 
 @media (max-width: 575px) {
-  .hero .mentions-logo {
+  .contact .mentions-logo {
     height: 24px;
   }
 
-  .hero .mentions-logo--imsp,
-  .hero .mentions-logo--indabax {
+  .contact .mentions-logo--imsp,
+  .contact .mentions-logo--indabax {
     height: 27px;
   }
 }
