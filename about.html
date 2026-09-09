@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>À propos - Charmaine Yebadokpo</title>
-  <meta name="description" content="Ingénieure IA et consultante en computer vision basée au Bénin, formée à l'AMMI/AIMS Sénégal. Je conçois des solutions IA concrètes et je forme la prochaine génération.">
+  <title data-i18n="about.title">À propos - Charmaine Yebadokpo</title>
+  <meta name="description" content="Ingénieure IA et consultante en computer vision basée au Bénin, formée à l'AMMI/AIMS Sénégal. Je conçois des solutions IA concrètes et je forme la prochaine génération." data-i18n="about.meta">
   <meta name="keywords" content="Charmaine Yebadokpo, IA, computer vision, AMMI, AIMS, Bénin, machine intelligence, éducation IA">
 
   <!-- Favicons -->
@@ -49,13 +49,14 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="about.html" class="active">À propos</a></li>
-          <li><a href="portfolio.html">Projets</a></li>
-          <li><a href="experience.html">Expérience</a></li>
-          <li><a href="teaching.html">Enseignement</a></li>
-          <li><a href="education.html">Formation</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+          <li><a href="about.html" class="active" data-i18n="nav.about">À propos</a></li>
+          <li><a href="portfolio.html" data-i18n="nav.projects">Projets</a></li>
+          <li><a href="experience.html" data-i18n="nav.experience">Expérience</a></li>
+          <li><a href="teaching.html" data-i18n="nav.teaching">Enseignement</a></li>
+          <li><a href="education.html" data-i18n="nav.education">Formation</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          <li class="lang-toggle"><a href="#" id="lang-toggle" aria-label="Passer en anglais">EN</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -71,8 +72,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>À propos</h1>
-              <p class="mb-0">Ingénieure IA et consultante en computer vision, basée au Bénin et formée en partie au Sénégal. Un parcours qui relie recherche technique, ingénierie logicielle et éducation en IA.</p>
+              <h1 data-i18n="about.headingTitle">À propos</h1>
+              <p class="mb-0" data-i18n="about.heading">Ingénieure IA et consultante en computer vision, basée au Bénin et formée en partie au Sénégal. Un parcours qui relie recherche technique, ingénierie logicielle et éducation en IA.</p>
             </div>
           </div>
         </div>
@@ -80,8 +81,8 @@
       <nav class="breadcrumbs">
         <div class="container">
           <ol>
-            <li><a href="index.html">Accueil</a></li>
-            <li class="current">À propos</li>
+            <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+            <li class="current" data-i18n="about.headingTitle">À propos</li>
           </ol>
         </div>
       </nav>
@@ -94,24 +95,24 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/about.jpg" class="img-fluid profile-photo" alt="Portrait de Charmaine Yebadokpo">
+            <img src="assets/img/about.jpg" class="img-fluid profile-photo" alt="Portrait de Charmaine Yebadokpo" data-i18n-alt="about.portraitAlt">
           </div>
           <div class="col-lg-8 content">
-            <h2>Je conçois des solutions IA concrètes, que je rends accessibles.</h2>
-            <p class="fst-italic py-3">
+            <h2 data-i18n="about.h2">Je conçois des solutions IA concrètes, que je rends accessibles.</h2>
+            <p class="fst-italic py-3" data-i18n="about.p1">
               Je suis Charmaine Yebadokpo, ingénieure IA basée au Bénin, formée en partie au Sénégal. Mon parcours relie deux ambitions : utiliser l'IA pour des problèmes concrets, et transmettre ces compétences à la prochaine génération.
             </p>
-            <p class="py-3">
+            <p class="py-3" data-i18n="about.p2">
               Après un Bachelor à l'IMSP Bénin (2018-2019), j'ai obtenu un Master en ICT (2019-2021) avec une thèse sur la génération d'interfaces web à partir de croquis dessinés à la main, avec 94% de précision en classification grâce à des CNN. J'ai ensuite poursuivi à l'AIMS/AMMI Sénégal avec un Master en Sciences Mathématiques (2022-2023, travaux sur les graceful and cordial graph labelings), puis le Master en Machine Intelligence (2023-2024) : computer vision, kernel methods, NLP et MLOps. Trois formations, trois bourses d'excellence complètes.
             </p>
-            <p class="py-3">
+            <p class="py-3" data-i18n="about.p3">
               En génie logiciel, j'ai construit des microservices en Golang, Python et C# chez Dataincube (plateforme Atlas Core, CI/CD, Docker) et Sensor6ty (C#/Python/MongoDB/Flask, sécurité API OAuth2/JWT). En computer vision appliquée : segmentation de tumeurs cérébrales sur IRM (U-Net), génération de rapports radiologiques et classification de maladies du manioc (compétition Kaggle).
             </p>
-            <p class="py-3">
+            <p class="py-3" data-i18n="about.p4">
               En parallèle, je m'engage dans l'éducation en IA : mentorat pour l'Olympiade Internationale d'IA (IOAI), IndabaX Bénin et le projet EducAI, une plateforme d'apprentissage personnalisé pour les élèves béninois.
             </p>
             <p class="py-3 mb-0">
-              <strong>Langues :</strong> Goun et Fon (natives), français (C1), anglais (B2).
+              <strong data-i18n="about.languages.title">Langues :</strong> <span data-i18n="about.languages.value">Goun et Fon (natives), français (C1), anglais (B2).</span>
             </p>
           </div>
         </div>
@@ -132,14 +133,14 @@
   <footer id="footer" class="footer dark-background">
     <div class="container">
       <h3 class="sitename">Charmaine Yebadokpo</h3>
-      <p><strong>Charmaine Aurette O. A. Yebadokpo, MCS</strong> : ingénieure IA et consultante en computer vision, je conçois des solutions concrètes et je forme la prochaine génération à les construire.</p>
+      <p><strong>Charmaine Aurette O. A. Yebadokpo, MCS</strong><span data-i18n="footer.bio"></span></p>
       <div class="social-links d-flex justify-content-center">
         <a href="https://github.com/aurette2" target="_blank"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/charmaine-a-yebadokpo-586aba1b2/" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">CYA DIGITECH</strong> <span>All Rights Reserved</span>
+          <span data-i18n="footer.copyright">Copyright</span> <strong class="px-1 sitename">CYA DIGITECH</strong> <span data-i18n="footer.rights">All Rights Reserved</span>
         </div>
       </div>
     </div>
@@ -162,6 +163,9 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- i18n -->
+  <script src="assets/js/i18n.js"></script>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>

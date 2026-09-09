@@ -1675,3 +1675,30 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   font-size: 14px;
 }
+
+.lang-toggle a {
+  font-size: 0.8rem !important;
+  letter-spacing: 0.08em;
+  padding: 0.35rem 0.7rem !important;
+  border: 1px solid var(--nav-color);
+  border-radius: 50px;
+  transition: color 0.3s, border-color 0.3s, background-color 0.3s;
+}
+
+.lang-toggle a:before {
+  display: none !important;
+}
+
+.lang-toggle a:hover,
+.lang-toggle a:focus {
+  color: var(--nav-hover-color) !important;
+  border-color: var(--nav-hover-color);
+}
+
+@media (max-width: 1199.98px) {
+  .lang-toggle a {
+    display: inline-block;
+    margin-top: 6px;
+    width: fit-content;
+  }
+}
