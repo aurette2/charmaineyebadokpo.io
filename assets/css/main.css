@@ -1506,7 +1506,7 @@ section,
   margin-top: 45px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 10px;
 }
 
