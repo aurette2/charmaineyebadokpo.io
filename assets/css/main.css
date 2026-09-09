@@ -1566,6 +1566,11 @@ section,
   }
 }
 
+.about .profile-photo {
+  -webkit-mask-image: radial-gradient(ellipse 82% 88% at 50% 50%, #000 55%, transparent 100%);
+  mask-image: radial-gradient(ellipse 82% 88% at 50% 50%, #000 55%, transparent 100%);
+}
+
 /*--------------------------------------------------------------
 # Project Cards
 --------------------------------------------------------------*/
