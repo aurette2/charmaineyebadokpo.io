@@ -707,7 +707,7 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
-  padding-right: 180px;
+  padding-right: 140px;
 }
 
 @media (max-width: 991px) {
